@@ -53,8 +53,8 @@ setup(
     author=deeppavlov.__author__,
     author_email=deeppavlov.__email__,
     license=deeppavlov.__license__,
-    url='https://github.com/deepmipt/DeepPavlov',
-    download_url='https://github.com/deepmipt/DeepPavlov/archive/' + deeppavlov.__version__ + '.tar.gz',
+    url='https://github.com/MANASLU8/DeepPavlov',
+    download_url='https://github.com/deepmipt/MANASLU8/archive/' + deeppavlov.__version__ + '.tar.gz',
     keywords=deeppavlov.__keywords__,
     include_package_data=True,
     extras_require={
