@@ -95,7 +95,7 @@ class NerNetwork(LRScheduledTFModel):
                  **kwargs) -> None:
         tf.set_random_seed(seed)
         np.random.seed(seed)
-
+        char_emb_mat = np.resize(char_emb_mat, (162,100))
         assert n_tags != 0, 'Number of classes equal 0! It seems that vocabularies is not loaded.' \
                             ' Check that all vocabulary files are downloaded!'
 
